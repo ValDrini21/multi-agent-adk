@@ -21,6 +21,10 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
+### Environment Variables
+
+Convert `.env.example` to `.env` or manually create a `.env` file with your API key for every agent project
+
 ### Setting Up API Keys
 
 1. Create an account in Google Cloud (if not have one) https://cloud.google.com/?hl=en
@@ -28,3 +32,10 @@ pip install -r requirements.txt
 3. Go to https://aistudio.google.com/apikey
 4. Create an API key
 5. Assign key to the project
+6. Copy/paste these keys on .env file
+
+### Running Agents
+
+```bash
+adk web
+```
